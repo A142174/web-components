@@ -55,3 +55,11 @@ The `@angular/elements` package exports a `createCustomElement()` API that provi
 Transforming a component to a custom element makes all of the required Angular infrastructure available to the browser. Creating a custom element is simple and straightforward, and automatically connects your component-defined view with change detection and data binding, mapping Angular functionality to the corresponding native HTML equivalents.
 
 > Angular are working on custom elements that can be used by web apps built on other frameworks. A minimal, self-contained version of the Angular framework will be injected as a service to support the component's change-detection and data-binding functionality. For more about the direction of development, check out this [video presentation](https://www.youtube.com/watch?v=Z1gLFPLVJjY&t=4s).
+
+
+## Comparison
+
+| Web Components   | Size (minified) | Gzipped | Fast 4g | Fast 3g | Slow 3g | Firefox |
+| ---------------- | --------------- | ------- | ------- | ------- | ------- | ------- |
+| Stencil          | 29 KB           | 11.8 KB | 152ms   | 723ms   | 2.56s   | Yes     |
+| Angular Elements | 305 KB          | 86.5 KB | 205ms   | 2.22s   | 8.10s   | No      |

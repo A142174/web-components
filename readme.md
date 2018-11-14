@@ -4,6 +4,41 @@ This is a sample project for building a standalone Address Search Web Component 
 
 Both web components function the exact same just built using different technologies.
 
+### What are Web Components
+
+> Web Components is a suite of different technologies allowing you to create reusable custom elements — with their functionality encapsulated away from the rest of your code — and utilize them in your web apps.
+
+Web components are based on four main specifications:
+
+- Custom Elements
+
+   The [Custom Elements specification](https://w3c.github.io/webcomponents/spec/custom/) lays the foundation for designing and using new types of DOM elements.  
+
+- Shadow DOM
+
+   The [shadow DOM specification](https://w3c.github.io/webcomponents/spec/shadow/) defines how to use encapsulated style and markup in web components.  
+
+- ES Modules
+
+   The [ES Modules specification](https://html.spec.whatwg.org/multipage/webappapis.html#integration-with-the-javascript-module-system) defines the inclusion and reuse of JS documents in a standards based, modular, performant way.  
+
+- HTML Template
+
+   The [HTML template element specification](https://html.spec.whatwg.org/multipage/scripting.html#the-template-element/) defines how to declare fragments of markup that go unused at page load, but can be instantiated later on at runtime.  
+
+
+### How to use Web Components
+
+The components on this site provide new HTML elements that you can use in your web pages and web applications.
+
+Using a custom element is as simple as importing it, and using the new tags in an HTML document. For example, to use the [paper-button element](https://www.webcomponents.org/element/@polymer/paper-button):
+
+```
+<script type="module" src="node_modules/@polymer/paper-button/paper-button.js"></script>
+...
+<paper-button raised class="indigo">raised</paper-button>
+```
+
 
 ## Stencil: A Compiler for Web Components
 

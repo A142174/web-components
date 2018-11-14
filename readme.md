@@ -34,7 +34,7 @@ Goals And Objectives
 - [Framework Features During Development(https://stenciljs.com/docs/goals-and-objectives#framework-features-during-development)
 - [Wide Browser Support](https://stenciljs.com/docs/goals-and-objectives#wide-browser-support)
 
-⋅⋅⋅Chrome 60+⋅⋅
+   Chrome 60+  
 ⋅⋅⋅Safari 10.1+⋅⋅
 ⋅⋅⋅Firefox 63+⋅⋅
 ⋅⋅⋅Edge 16+⋅⋅

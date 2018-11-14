@@ -94,7 +94,13 @@ Transforming a component to a custom element makes all of the required Angular i
 
 ## Comparison
 
-| Web Components   | Size (minified) | Gzipped | Fast 4g | Fast 3g | Slow 3g | Firefox |
-| ---------------- | --------------- | ------- | ------- | ------- | ------- | ------- |
-| Stencil          | 29 KB           | 11.8 KB | 152ms   | 723ms   | 2.56s   | Yes     |
-| Angular Elements | 305 KB          | 86.5 KB | 205ms   | 2.22s   | 8.10s   | No      |
+| Web Components   | Size (minified) | Gzipped | Fast 4g | Fast 3g | Slow 3g | Chrome 65 | Firefox 63 | Edge | IE 11 |
+| ---------------- | --------------- | ------- | ------- | ------- | ------- | --------- | ---------- | ---- | ----- |
+| Stencil          | 29 KB           | 11.8 KB | 152ms   | 723ms   | 2.56s   | Yes       | Yes        | Yes  | Yes   |
+| Angular Elements | 305 KB          | 86.5 KB | 205ms   | 2.22s   | 8.10s   | Yes       | No         | No   | No    |
+
+### Observations
+
+1. Angular Elements generates a polyfill but only works with Chrome (tested with Firefox, Edge, IE 10)
+2. Angular Elements requires `@angular/forms` to add listeners to form elements, increases bundles size by **40 KB**
+3. Angular Elements is more opinionated than Stencil, enforces the **_Angular Way_**

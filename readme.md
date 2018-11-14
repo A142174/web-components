@@ -4,7 +4,8 @@ This is a sample project for building a standalone Address Search Web Component 
 
 Both web components function the exact same just built using different technologies.
 
-# Stencil: A Compiler for Web Components
+
+## Stencil: A Compiler for Web Components
 
 Stencil is a compiler that generates Web Components (more specifically, Custom Elements). Stencil combines the best concepts of the most popular frameworks into a simple build-time tool.
 
@@ -26,14 +27,13 @@ The developer experience is also tuned, and comes with live reload and a small d
 
 Goals And Objectives
 
-- [Web Standards(https://stenciljs.com/docs/goals-and-objectives#web-standards)
-- [Automatic Optimisations(https://stenciljs.com/docs/goals-and-objectives#automatic-optimizations)
-- [Future Friendly(https://stenciljs.com/docs/goals-and-objectives#future-friendly)
-- [Run-time Performance(https://stenciljs.com/docs/goals-and-objectives#run-time-performance)
-- [Tiny API(https://stenciljs.com/docs/goals-and-objectives#tiny-api)
-- [Framework Features During Development(https://stenciljs.com/docs/goals-and-objectives#framework-features-during-development)
+- [Web Standards](https://stenciljs.com/docs/goals-and-objectives#web-standards)
+- [Automatic Optimisations](https://stenciljs.com/docs/goals-and-objectives#automatic-optimizations)
+- [Future Friendly](https://stenciljs.com/docs/goals-and-objectives#future-friendly)
+- [Run-time Performance](https://stenciljs.com/docs/goals-and-objectives#run-time-performance)
+- [Tiny API](https://stenciljs.com/docs/goals-and-objectives#tiny-api)
+- [Framework Features During Development](https://stenciljs.com/docs/goals-and-objectives#framework-features-during-development)
 - [Wide Browser Support](https://stenciljs.com/docs/goals-and-objectives#wide-browser-support)
-
    Chrome 60+  
    Safari 10.1+  
    Firefox 63+  
@@ -42,13 +42,14 @@ Goals And Objectives
    Support with bundled polyfills  
 
 
-# Angular Elements
+
+## Angular Elements
 
 Angular elements are Angular components packaged as custom elements, a web standard for defining new HTML elements in a framework-agnostic way.
 
-(Custom elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) are a Web Platform feature currently supported by Chrome, Opera, and Safari, and available in other browsers through polyfills (see [Browser Support](https://angular.io/guide/elements#browser-support)). A custom element extends HTML by allowing you to define a tag whose content is created and controlled by JavaScript code. The browser maintains a CustomElementRegistry of defined custom elements (also called Web Components), which maps an instantiable JavaScript class to an HTML tag.
+[Custom elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements) are a Web Platform feature currently supported by Chrome, Opera, and Safari, and available in other browsers through polyfills (see [Browser Support](https://angular.io/guide/elements#browser-support)). A custom element extends HTML by allowing you to define a tag whose content is created and controlled by JavaScript code. The browser maintains a CustomElementRegistry of defined custom elements (also called Web Components), which maps an instantiable JavaScript class to an HTML tag.
 
-The @angular/elements package exports a createCustomElement() API that provides a bridge from Angular's component interface and change detection functionality to the built-in DOM API.
+The `@angular/elements` package exports a `createCustomElement()` API that provides a bridge from Angular's component interface and change detection functionality to the built-in DOM API.
 
 Transforming a component to a custom element makes all of the required Angular infrastructure available to the browser. Creating a custom element is simple and straightforward, and automatically connects your component-defined view with change detection and data binding, mapping Angular functionality to the corresponding native HTML equivalents.
 
